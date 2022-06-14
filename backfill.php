@@ -25,10 +25,10 @@ if ($conn->connect_error) {
 #INITIAL SCRAPE OF PAGE
 $initial_results = array();
 
-$proxyip = 'oberon.usbx.me';
+$proxyip = 'address';
 $proxyport = '8080';
-$proxyusername = 'foghorn';
-$proxypassword = 'N01d34M4t3';
+$proxyusername = 'username';
+$proxypassword = 'password';
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
