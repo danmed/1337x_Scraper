@@ -37,7 +37,7 @@ curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL , 1);
 curl_setopt($ch, CURLOPT_PROXY, $proxyip);
 curl_setopt($ch, CURLOPT_PROXYPORT, $proxyport);
 curl_setopt($ch, CURLOPT_PROXYUSERPWD, "$proxyusername:$proxypassword");
-curl_setopt($ch, CURLOPT_URL, "https://1337x.to/sort-search/tigole/time/desc/3/");
+curl_setopt($ch, CURLOPT_URL, "https://1337x.to/sort-search/tigole/time/desc/1/");
 // create curl resource
 //$ch = curl_init();
 
